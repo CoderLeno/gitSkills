@@ -1,3 +1,9 @@
 gitSkills
 
 git clone git@github.com:lazynoa/gitSkills.git
+
+首次push：
+git push -u origin master
+
+下次push
+git push origin master
