@@ -2,8 +2,28 @@ gitSkills
 
 git clone git@github.com:lazynoa/gitSkills.git
 
-首次push：
+first push：
 git push -u origin master
 
-下次push
+Next push
 git push origin master
+
+skills：
+※local to host
+1st: edit file
+2nd: git add gitSkills.txt
+3rd: git commit -m"update git skills"
+4th: git push origin master
+
+※host to local
+1st:git clone git@github.com:lazynoa/gitSkills.git
+warning:before clone, make sure you are in the right file folder
+
+make sure:
+1st:the host contains the SSH key
+
+How to get SSH key?
+1st: $ ssh-keygen -t rsa -c "myemail.com" --- enter
+2nd: find the SSH key in Users/administrator/.ssh
+3rd: open the file,and copy the key
+4th: log in Github --- Account setings --- SSH  Keys --- Add SSH Keys 
