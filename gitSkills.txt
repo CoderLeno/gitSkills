@@ -27,3 +27,25 @@ How to get SSH key?
 2nd: find the SSH key in Users/administrator/.ssh
 3rd: open the file,and copy the key
 4th: log in Github --- Account setings --- SSH  Keys --- Add SSH Keys 
+
+build a new branch
+$ git checkout -b dev
+-b :create and switch
+
+$ git checkout -b dev 
+==
+$ git branch dev
+$ git checkout dev
+
+check the branch:
+$ git branch
+* dev	
+  master
+  
+switch to master
+$git checkout master
+$git branch 
+ dev
+*master
+
+ 
