@@ -32,16 +32,24 @@ build a new branch
 $ git checkout -b dev
 -b :create and switch
 
+<<<<<<< HEAD
 $ git checkout -b dev 
 ==
 $ git branch dev
 $ git checkout dev
+=======
+git checkout -b dev 
+==
+git branch dev
+git checkout dev
+>>>>>>> dev
 
 check the branch:
 $ git branch
 * dev	
   master
   
+<<<<<<< HEAD
 switch to master
 $git checkout master
 $git branch 
@@ -49,3 +57,6 @@ $git branch
 *master
 
  
+=======
+  
+>>>>>>> dev
